@@ -20,6 +20,16 @@
 		5494B1FE17A150CB00919338 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5494B1FD17A150CB00919338 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5494B22317A1533F00919338 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5494B21F17A1533F00919338 /* SubmoduleProject.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5494B1AF17A150A500919338;
+			remoteInfo = SubmoduleProject;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		5494B1DE17A150CB00919338 /* Super1Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Super1Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5494B1E117A150CB00919338 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -37,6 +47,7 @@
 		5494B1FA17A150CB00919338 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		5494B1FC17A150CB00919338 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5494B1FD17A150CB00919338 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5494B21F17A1533F00919338 /* SubmoduleProject.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SubmoduleProject.xcodeproj; path = ../../Submodule/SubmoduleProject/SubmoduleProject.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +70,7 @@
 				5494B1E717A150CB00919338 /* Super1Project */,
 				5494B1E017A150CB00919338 /* Frameworks */,
 				5494B1DF17A150CB00919338 /* Products */,
+				5494B21F17A1533F00919338 /* SubmoduleProject.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +119,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		5494B22017A1533F00919338 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5494B22417A1533F00919338 /* SubmoduleProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,12 +166,28 @@
 			mainGroup = 5494B1D517A150CB00919338;
 			productRefGroup = 5494B1DF17A150CB00919338 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5494B22017A1533F00919338 /* Products */;
+					ProjectRef = 5494B21F17A1533F00919338 /* SubmoduleProject.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				5494B1DD17A150CB00919338 /* Super1Project */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5494B22417A1533F00919338 /* SubmoduleProject.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SubmoduleProject.app;
+			remoteRef = 5494B22317A1533F00919338 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		5494B1DC17A150CB00919338 /* Resources */ = {
@@ -298,6 +334,7 @@
 				5494B20317A150CB00919338 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
