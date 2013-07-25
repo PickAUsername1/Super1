@@ -18,6 +18,7 @@
 		5494B1F817A150CB00919338 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5494B1F717A150CB00919338 /* Default-568h@2x.png */; };
 		5494B1FB17A150CB00919338 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5494B1F917A150CB00919338 /* MainStoryboard.storyboard */; };
 		5494B1FE17A150CB00919338 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5494B1FD17A150CB00919338 /* ViewController.m */; };
+		5494B22817A1543200919338 /* testSuper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5494B22717A1543200919338 /* testSuper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		5494B1FC17A150CB00919338 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5494B1FD17A150CB00919338 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5494B21F17A1533F00919338 /* SubmoduleProject.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SubmoduleProject.xcodeproj; path = ../../Submodule/SubmoduleProject/SubmoduleProject.xcodeproj; sourceTree = "<group>"; };
+		5494B22617A1543200919338 /* testSuper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testSuper.h; sourceTree = "<group>"; };
+		5494B22717A1543200919338 /* testSuper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testSuper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 		5494B1D517A150CB00919338 = {
 			isa = PBXGroup;
 			children = (
+				5494B22617A1543200919338 /* testSuper.h */,
+				5494B22717A1543200919338 /* testSuper.m */,
 				5494B1E717A150CB00919338 /* Super1Project */,
 				5494B1E017A150CB00919338 /* Frameworks */,
 				5494B1DF17A150CB00919338 /* Products */,
@@ -212,6 +217,7 @@
 				5494B1EE17A150CB00919338 /* main.m in Sources */,
 				5494B1F217A150CB00919338 /* AppDelegate.m in Sources */,
 				5494B1FE17A150CB00919338 /* ViewController.m in Sources */,
+				5494B22817A1543200919338 /* testSuper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
